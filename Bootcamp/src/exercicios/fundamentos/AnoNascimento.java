@@ -1,3 +1,5 @@
+package exercicios.fundamentos;
+
 import java.time.OffsetDateTime;
 import java.util.Scanner;
 
