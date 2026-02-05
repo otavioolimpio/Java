@@ -1,7 +1,10 @@
+/*
 package exercicios.desafioCodigo;
+
 import java.util.Scanner;
 
 class Projeto1 {
+    private final String codigo = "";
     int hifen = codigo.indexOf('-');
 
     public String validar() {
@@ -36,4 +39,4 @@ public class Main1 {
         Projeto1 projeto = new Projeto1(codigo);
         System.out.println(projeto.validar());
     }
-}
+}*/
