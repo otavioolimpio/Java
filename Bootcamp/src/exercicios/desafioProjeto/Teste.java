@@ -1,5 +1,6 @@
 package exercicios.desafioProjeto;
 
+import exercicios.desafioProjeto.facade.Facade;
 import exercicios.desafioProjeto.singleton.SingletonEager;
 import exercicios.desafioProjeto.singleton.SingletonLazy;
 import exercicios.desafioProjeto.singleton.SingletonLazyHolder;
@@ -30,5 +31,10 @@ public class Teste {
         robo.mover();
         robo.setComportamento(agressivo);
         robo.mover();
+
+
+        //Teste relacionado ao Design Patters Facade
+        Facade facade = new Facade();
+        facade.migraClente("Otavio", "54759085");
     }
 }
